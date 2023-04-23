@@ -1,0 +1,36 @@
+{
+  "name": "10.team-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates and displays profiles of employees in the team",
+  "main": "Index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meiliou/team-profile-generator.git"
+  },
+  "keywords": [
+    "team",
+    "profile",
+    "generator",
+    "node",
+    "oop",
+    "tdd",
+    "jest",
+    "inquirer@8.0.0"
+  ],
+  "author": "Mei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meiliou/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/meiliou/team-profile-generator#readme",
+  "devDependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^29.5.0"
+  }
+}
