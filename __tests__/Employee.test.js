@@ -28,3 +28,10 @@ test("gets employee's email", () => {
 
     expect(employee.getEmail()).toBe('email');
 });
+
+test("gets employee's role", () => {
+    const employee = new Employee('name','id','email');
+    employee.role = 'role';
+
+    expect(employee.getRole()).toBe('role');
+});
